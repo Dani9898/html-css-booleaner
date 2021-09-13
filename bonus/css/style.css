@@ -19,8 +19,11 @@ header img {
 /* sezione titolo */
 h1 {
     font-size: 300%;
-    margin-top: 20px;
     line-height: 80%;
+}
+
+.margine_top_20px {
+    margin-top: 20px;
 }
 
 h1, #sezione_titolo p {
@@ -44,9 +47,6 @@ h1, #sezione_titolo p {
 }
 
 /* sezione immagini */
-#sezione_immagini {
-    margin-top: 20px;
-}
 
 #sezione_immagini p {
     font-size: 70%;
@@ -98,9 +98,8 @@ footer div {
 footer div p {
     padding-left: 10px;
     padding-top: 10px;
-    font-size: 140%;
+    font-size: 130%;
 }
-
 
 /* bonus */
 
