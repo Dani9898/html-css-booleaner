@@ -19,16 +19,19 @@ header img {
 h1 {
     font-size: 300%;
     margin-top: 20px;
-    margin-bottom: 0px;
     line-height: 80%;
 }
 
+h1, #sezione_titolo p {
+    margin-bottom: 0px;
+}
+
+.colore_ccc {
+    color: #ccc;
+}
 
 #sezione_titolo p {
-    color: #ccc;
     margin-top: 0px;
-    margin-bottom: 0px;
-
 }
 
 #sezione_titolo span {
@@ -58,16 +61,41 @@ h1 {
 }
 
 #sezione_testo ul {
-    margin-top: 40px;
-    
+    margin-top: 40px;    
 }
 
 thead {
-    color: white;
     background-color: rgb(62, 178, 255);
     text-align: center;
 }
 
-.colore_diverso {
+.colore_testo_bianco {
+    color: white;
+}
+.colore_diverso_riga {
     background: aqua;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+}
+footer div {
+    width: 230px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.monitor_img {
+    background-image: url(../img/monitor.jpg);
+}
+
+.graph_img {
+    background-image: url(../img/graph.jpg);
+}
+
+footer div p {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 140%;
 }
