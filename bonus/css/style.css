@@ -10,6 +10,7 @@ header {
 header img {
     width: 300px;
     padding-top: 80px;
+    padding-left: 350px;
 }
 
 
@@ -98,4 +99,12 @@ footer div p {
     padding-left: 10px;
     padding-top: 10px;
     font-size: 140%;
+}
+
+
+/* bonus */
+
+main, footer {
+    max-width: 1200px;
+    margin: auto;
 }
