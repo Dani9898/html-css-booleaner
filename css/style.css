@@ -1,12 +1,9 @@
 /* css generico */
-
 *{
     margin: 0px;
-}
-body {
-   max-width: 1200px;
-   margin: auto;
-}
+    box-sizing: border-box;
+  }
+
 /* header */
 header {
    width: 100%;
@@ -20,27 +17,37 @@ header img {
     width: 40%;
 }
 
+
 /* Parte Principale */
 
 /* sezione titolo */
 h1 {
     font-size: 300%;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 80%;
 }
 
-section div {
-    margin-top: 5px;
+#sezione_titolo div {
+    margin-top: 20px;
 }
 
-#first_section p {
+#sezione_titolo p {
     color: #ccc;
 }
 
-#first_section span {
+#sezione_titolo span {
     color:rgb(62, 178, 255);
 }
 
 #data_dieci_ottobre {
+    font-size: 70%;
+}
+
+/* sezione immagini */
+#sezione_immagini {
+    margin-top: 20px;
+}
+
+#sezione_immagini p {
     font-size: 70%;
 }
